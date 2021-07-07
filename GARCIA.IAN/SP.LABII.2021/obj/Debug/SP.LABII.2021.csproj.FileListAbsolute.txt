@@ -1,0 +1,13 @@
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\bin\Debug\SP.LABII.2021.exe.config
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\bin\Debug\SP.LABII.2021.exe
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\bin\Debug\SP.LABII.2021.pdb
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\bin\Debug\Entidades.dll
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\bin\Debug\Entidades.pdb
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\obj\Debug\SP.LABII.2021.csprojAssemblyReference.cache
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\obj\Debug\SP.LABII._2021.FrmSP.resources
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\obj\Debug\SP.LABII._2021.Properties.Resources.resources
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\obj\Debug\SP.LABII.2021.csproj.GenerateResource.cache
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\obj\Debug\SP.LABII.2021.csproj.CoreCompileInputs.cache
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\obj\Debug\SP.LABII.2021.csproj.CopyComplete
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\obj\Debug\SP.LABII.2021.exe
+C:\Users\Ianch\OneDrive\Escritorio\GARCIA.IAN\SP.LABII.2021\obj\Debug\SP.LABII.2021.pdb

@@ -1,0 +1,6 @@
+C:\Users\Ianch\OneDrive\Escritorio\integrador\Entidades\bin\Debug\Entidades.dll
+C:\Users\Ianch\OneDrive\Escritorio\integrador\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Ianch\OneDrive\Escritorio\integrador\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\Users\Ianch\OneDrive\Escritorio\integrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ianch\OneDrive\Escritorio\integrador\Entidades\obj\Debug\Entidades.dll
+C:\Users\Ianch\OneDrive\Escritorio\integrador\Entidades\obj\Debug\Entidades.pdb

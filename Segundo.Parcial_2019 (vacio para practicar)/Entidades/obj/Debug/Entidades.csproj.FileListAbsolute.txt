@@ -1,0 +1,6 @@
+C:\Users\Ianch\OneDrive\Escritorio\EJProfe\2PEJEMPLOS\Segundo.Parcial_2019 (vacio para practicar)\Entidades\bin\Debug\Entidades.dll
+C:\Users\Ianch\OneDrive\Escritorio\EJProfe\2PEJEMPLOS\Segundo.Parcial_2019 (vacio para practicar)\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Ianch\OneDrive\Escritorio\EJProfe\2PEJEMPLOS\Segundo.Parcial_2019 (vacio para practicar)\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Ianch\OneDrive\Escritorio\EJProfe\2PEJEMPLOS\Segundo.Parcial_2019 (vacio para practicar)\Entidades\obj\Debug\Entidades.dll
+C:\Users\Ianch\OneDrive\Escritorio\EJProfe\2PEJEMPLOS\Segundo.Parcial_2019 (vacio para practicar)\Entidades\obj\Debug\Entidades.pdb
+C:\Users\Ianch\OneDrive\Escritorio\EJProfe\2PEJEMPLOS\Segundo.Parcial_2019 (vacio para practicar)\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

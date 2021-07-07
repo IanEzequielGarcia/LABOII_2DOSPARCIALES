@@ -1,0 +1,105 @@
+
+1) INTERFACES Y SERIALIZACIÓN XML
+
+En un proyecto de tipo Biblioteca de Clases llamado "Entidades"
+
+Crear clase pública Planeta:
+-Atributos: (público) nombre:string
+	    (público) satelites:int
+	    (público) gravedad:double                                           
+-Constructor por defecto y otro que reciba los 3 parámetros.
+-Métodos:   (privado) Mostrar():string ->   Muestra todos los datos.
+	    (público) ToString():string ->  Reutiliza Mostrar()
+
+
+Crear Interface ISerializable y dentro de ella definir:
+-Propiedad:  Path:string  (Sólo lectura)
+-Métodos: SerializarXml():bool
+ 	  DeserializarXml():string
+
+
+Implementar Interface ISerializable en clase Planeta: 
+
+-Propiedad:  Path:string --> el path va a estar en el escritorio, dentro de la carpeta integrador
+y el archivo se va a llamar "planetaSerializado.Xml"
+-Método: SerializarXml():bool  -> serializa y retorna true si serializó.
+ 	 DeserializarXml():string -> deserializa y retorna el ToString() del planeta.
+
+-Manejador del evento btn1_Click .
+
+2) TIPOS GENERICOS
+En la misma biblioteca de clases:
+Crear clase SistemaSolar<T>:     (restringir para que sólo lo use Planeta)
+
+-Atributos:  (público) lista:List<T>
+             (protegido) capacidad:int
+
+-Constructores: 1-por defecto solo inicia la lista 
+		2-con parámetro que reciba la capacidad (reutilizar).
+
+-Métodos:  (público) Agregar(planeta:Planeta):bool -> Agrega el planeta a la lista y retorna true.
+
+-Manejador del evento btn2_Click . 
+
+3) EXCEPCIONES
+
+Crear la Excepción "NoHayLugarException"
+Constructor: 1-envía el mensaje de error "No hay lugar para mas planetas"
+a su constructor base "Exception".
+
+-Modificar el método Agregar() de la clase SistemaSolar: 
+Si los planetas superan la capacidad, LANZAR la excepción "NoHayLugarException".
+
+-Manejador del evento btn3_Click.
+
+
+
+
+
+////------- BASE DE DATOS
+
+Dentro de FormIntegrador:
+Agregar usings y atributos correspondientes para usar SqlConnection, DataTable, SqlDataAdapter
+
+Constructor de FormIntegrador: Inicializar objeto SqlConnection con su cadena de conexión.
+
+Completar métodos vacíos: 
+1-ConfigurarDataTable():void -->Configurar nombre de la tabla, agregar las columnas y sus tipos de dato.
+Hacer el id autoincremental y que la semilla sea 1 y suba de a 1.
+2-ConfigurarDataAdapter():void --> Configurar los comandos y agregar los parámetros en cada comando. 
+(Controlar con bloque try-catch en caso de excepción).
+
+
+4)TRAER
+
+Crear Método: 
+TraerPlanetas():DataTable --> Trae todos los datos de la base de datos. Retorna la tabla llena.
+
+Manejador del evento btnTraer_Click.
+
+
+
+////-------  ABM
+
+Completar el formulario de alta:
+1-Atributo: (público)planeta:Planeta 
+2-Sobrecarga de constructor: FormAlta(Planeta p) -->(reutilizar).
+
+Manejador del evento btnAceptar_Click.
+
+5)AGREGAR
+6)MODIFICAR
+7)ELIMINAR
+
+
+8)GUARDAR
+
+Crear Método:   
+             (privado)GuardarDatos():bool -> 1- Guarda actualización en base de datos.
+					     2- Retorna True si funciona, false si no.
+
+Manejador del evento btnGuardar_Click. 
+
+				   
+		
+	
